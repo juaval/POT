@@ -1,23 +1,27 @@
 # POT
 Repository for the various scripts used in the analysis of the paper POT, as well as a brief explanation of the pipeline used.
+A few notes before explaining the pipeline:
+-  The relative folder structure present in the different scripts refers to the one present in CCC folder system, not the one in this repository
+-  Kneaddata (01_CLEANING.sh) is the only script to be run locally
+-  The code annotations are in a mixture of spanish and english. There is no rhyme or reason to it.
 
 ## Software and libraries used
 -  Python 3.10.0
 -  Perl 5.36.1
--  Kneaddata 0.12.1
--  fastq_pair 1.0.0
--  Spades 4.2.0
--  bowtie2 2.5.4
--  samtools 1.16.1
--  metabat2 2.12.1
--  maxbin2 2.2.7
--  comebin 1.0.4
--  semibin 2.2.1
--  concoct 1.1.0
--  binette 1.2.1
--  dRep 3.7.1
--  coverM 0.8.0
--  CheckM2 1.1.0
+-  [Kneaddata](https://github.com/biobakery/biobakery/wiki/kneaddata) 0.12.1
+-  [fastq_pair](https://github.com/linsalrob/fastq-pair) 1.0.0
+-  [SPAdes](https://github.com/ablab/spades) 4.2.0
+-  [bowtie2](https://github.com/BenLangmead/bowtie2) 2.5.4
+-  [samtools](https://github.com/samtools/samtools) 1.16.1
+-  [metabat2](https://bitbucket.org/berkeleylab/metabat/src/master/) 2.12.1
+-  [maxbin2](https://sourceforge.net/projects/maxbin2/) 2.2.7
+-  [COMEbin](https://github.com/ziyewang/COMEBin) 1.0.4
+-  [Semibin](https://github.com/BigDataBiology/SemiBin) 2.2.1
+-  [CONCOCT](https://github.com/BinPro/CONCOCT) 1.1.0
+-  [Binette](github.com/genotoul-bioinfo/Binette) 1.2.1
+-  [dRep](https://github.com/MrOlm/drep) 3.7.1
+-  [CoverM](https://github.com/wwood/CoverM) 0.8.0
+-  [CheckM2](https://github.com/chklovski/CheckM2) 1.1.0
 
 ## Pipeline explanation
 ### Raw sequence trimming and quality filtering
